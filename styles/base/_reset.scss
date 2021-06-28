@@ -1,0 +1,50 @@
+// scss-lint: disable all
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  border: 0;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  /* scss에서 &는 '동시에'를 뜻한다. 즉 여기서는
+	버튼,인풋,셀렉트,텍스트에어리어면서 동시에 포커스된 상태를 뜻함. */
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
